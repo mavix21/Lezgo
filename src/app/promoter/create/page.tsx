@@ -25,7 +25,7 @@ export default function Create() {
                             <div className="bg-gray-300 text-center py-2 rounded mt-2">Cantidad: 50</div>
                         </div>
                         <div className="col-span-1">
-                            <div className="bg-blue-500 text-white text-center py-2 rounded-t">NIVEL 1</div>
+                            <div className="bg-blue-500 text-white text-center py-2 rounded-t">SECTOR 1</div>
                             <div className="bg-gray-200 text-center py-2 rounded-b">Julio 12, 2024 - 20hrs</div>
                             <div className="bg-white text-center py-4 rounded mt-2">S/. 120</div>
                             <div className="bg-gray-300 text-center py-2 rounded mt-2">Cantidad: 200</div>
@@ -47,7 +47,7 @@ export default function Create() {
                     </div>
                     <div className="col-span-1 space-y-4">
                         <div className="bg-white p-4 rounded shadow">
-                            <h2 className="text-center font-bold">Entradas por nivel</h2>
+                            <h2 className="text-center font-bold">Entradas por zona</h2>
                             <p className="text-center">General: 500</p>
                             <p className="text-center">VIP: 80</p>
                             <p className="text-center">Super Vip: 150</p>

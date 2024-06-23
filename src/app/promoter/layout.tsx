@@ -1,3 +1,4 @@
+import { App } from "../shared/conf"
 
 export default function RootLayout({
     children,
@@ -19,8 +20,13 @@ export default function RootLayout({
                             Solución
                         </a>
                     </nav>
-                    <div className="bg-green-500 text-white px-4 py-2 rounded-lg">
-                        Hola, <span className="font-bold">Carlos from Vastion</span>
+
+                    <div className="flex flex-row">
+                        <p className="mt-4 font-semibold">Hola, </p>
+                        <div className="bg-green-500 text-white px-4 py-2 rounded-lg">
+                            <App />
+                        </div>
+
                     </div>
                 </header>
                 <div>{children}</div>
