@@ -1,5 +1,6 @@
 import { FontCarousel } from "@/components/ui/FontCarousel/FontCarousel";
 import { Button } from "@/components/ui/button";
+import { Input } from "@/components/ui/input";
 
 export default function Create() {
     return (
@@ -8,7 +9,8 @@ export default function Create() {
             <main className="container mx-auto p-8">
                 {/* <h1 className="text-5xl font-bold text-center mb-8">Create an event Create an event Create an event</h1> */}
                 <div className="grid grid-cols-4 gap-4 align">
-                    <div className="col-span-1 space-y-4 mt-24">
+                    <div className="col-span-1 space-y-4 mt-10">
+                        <Input placeholder="Nombre del evento"></Input>
                         <button className="w-full py-4 bg-green-500 text-black font-bold rounded h-24">GENERAL</button>
                         <button className="w-full py-4 bg-green-500 text-black font-bold rounded h-24">VIP</button>
                         <button className="w-full py-4 bg-green-500 text-black font-bold rounded h-24">SUPER VIP</button>
