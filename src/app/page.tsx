@@ -26,17 +26,7 @@ export default function Home() {
   return (
     <div className="min-h-screen bg-white">
       <header className="flex items-center justify-between p-4 bg-gradient-to-r from-blue-200 via-green-200 to-yellow-200">
-        <div className="flex items-center space-x-8">
-          <a href="#" className="text-lg font-semibold">
-            Nosotros
-          </a>
-          <a href="#" className="text-lg font-semibold">
-            Tickets
-          </a>
-          <a href="#" className="text-lg font-semibold">
-            Solución
-          </a>
-        </div>
+
         {/* <div className="text-4xl font-bold">LEZGO</div> */}
         <Image
           src="/images/brand.png"
