@@ -5,7 +5,7 @@ import { Input } from "@/components/ui/input";
 export default function Create() {
     return (
         <div className="min-h-screen bg-gradient-to-r from-blue-200 via-green-200 to-yellow-200">
-            <FontCarousel text="Crear un evento" times={8} direction="left" reference="#"></FontCarousel>
+            <FontCarousel text="Crear un evento" times={8} direction="left" reference="../../promoter"></FontCarousel>
             <main className="container mx-auto p-8">
                 {/* <h1 className="text-5xl font-bold text-center mb-8">Create an event Create an event Create an event</h1> */}
                 <div className="grid grid-cols-4 gap-4 align">
